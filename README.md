@@ -1,22 +1,24 @@
-# Project Title
+# Jwt Spring Security
 
-Simple overview of use/purpose.
+Spring boot application supports Jwt spring security and runs on multi-container docker application.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this application, we build spring boot application thats supports Token based Authentication with JWT. Then, we dockerize it and run on multi container docker application with postgresql.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Spring Security.
+* Jwt.
+* spring validation.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* docker 
+* maven
+* git
 
 ### Executing program
 
