@@ -1,0 +1,12 @@
+POST http://localhost:8081/api/auth/signup
+Content-Type: application/json
+
+{
+  "username": "lotfi",
+  "password": "1245",
+  "email": "lotfi@gmail.com",
+  "roles": ["user","admin"]
+}
+
+###
+

@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  jwt-security:
+    build: .
+    image: jwt-security
+    depends_on:
+      - postgresdb
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgresdb:5432/testdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 123
+
+    ports:
+      - "8081:8081"
+  postgresdb:
+    image: postgres
+    container_name: "postgresdb"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: testdb
