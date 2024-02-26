@@ -4,7 +4,7 @@ Spring boot application supports Jwt spring security and runs on multi-container
 
 ## Description
 
-In this application, we build spring boot application thats supports Token based Authentication with JWT. Then, we dockerize it and run on multi container docker application with postgresql.
+In this application, we build spring boot application thats supports Token based Authentication with JWT. Then, we dockerize it and run it with postgresql using docker compose.
 
 ## Getting Started
 
